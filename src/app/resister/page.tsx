@@ -7,7 +7,7 @@ function Resister({}: Props) {
   return (
     <section className="mt-7">
       <h1 className="text-center text-4xl text-red-500">resister</h1>
-      <form className="flex flex-col  justify-center items-center  text-xl font-semibold  border-red-600 border-8 rounded-lg">
+      <form className="block max-w-sm mx-auto">
         <input type="email" placeholder="email" />
 
         <input type="password" placeholder="password" />
